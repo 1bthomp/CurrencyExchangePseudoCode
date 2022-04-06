@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="bthomp56"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-03-31 09:06:49 AM"/>
+        <attribute name="created" value="YnRob21wNTY7V0lOMTBJVC0wMDI4OzIwMjItMDMtMzE7MDg6NTA6NTcgQU07Mjc2Mw=="/>
+        <attribute name="edited" value="YnRob21wNTY7V0lOMTBJVC0wMDI4OzIwMjItMDMtMzE7MDk6MDY6NDkgQU07MTA7MjkyMg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="dollars, euros, exchangeRate" type="Real" array="False" size=""/>
+            <assign variable="dollars" expression="0"/>
+            <assign variable="exchangeRate" expression="0.90"/>
+            <output expression="&quot;Welcome to our Currency Exchange Center!&quot;" newline="True"/>
+            <output expression="&quot;How many Dollars would you like to convert to Euros?&quot;" newline="True"/>
+            <input variable="dollars"/>
+            <assign variable="euros" expression="dollars*exchangeRate"/>
+            <output expression="&quot;You now have this many euros: &quot; &amp; euros" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
